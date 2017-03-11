@@ -1,48 +1,93 @@
 /* Setup */
-.center {
-    max-width: 600px;
-    height: 500px;
-    margin: -300px 0 0 -250px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    border-radius: 5px;
-    background-color: #f2f2f2;
-    box-shadow: 0px 1px 15px 0px black;
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
 }
 
-.content {
-    padding: 70px;
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.walking-man {
+    height: 600px;
+    width: 600px;
+    margin: 0 auto;
+    background-color: #ccc;
+    border-radius: 5px;
+    box-shadow: 0px 8px 15px 0px rgba(54, 54, 54, 0.4);
     position: relative;
 }
 
-.content .walking-man {
-
+.walking-man div { /* All of the body parts */
+    position: absolute;
+    border-radius: 50px;
+    background-color: black;
+    animation-iteration-count: 5;
 }
 
 .torso {
-
+    height: 190px;
+    width: 7px;
+    left: 300px;
+    top: 150px;
 }
 
 .head {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    top: 80px;
+    left: 262px;
+}
+
+.arm1-upper, .arm1-lower {
 
 }
 
-.arm1 {
+.arm1-upper {
+    height: 88px;
+    width: 7px;
+    top: 168px;
+    left: 301px;
+    transform-origin: top left;
+    animation-name: arm1-upper;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-in;
+}
+
+
+.arm1-lower {
 
 }
 
-.arm2 {
+.arm2-upper {
 
 }
 
-.leg1 {
+.arm2-lower {
 
 }
 
-.leg2 {
+.leg1-upper {
 
 }
+
+.leg1-lower {
+
+}
+
+.leg2-upper {
+
+}
+
+.leg2-lower {
+
+}
+
 
 @keyframes example {
     0%   {background-color: red;}

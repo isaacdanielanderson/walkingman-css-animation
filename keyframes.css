@@ -1,0 +1,14 @@
+@keyframes arm1-upper {
+    0%   {
+        transform: rotate(52deg);
+
+    }
+    50% {
+        transform: rotate(-72deg);
+
+    }
+    100% {
+        transform: rotate(52deg);
+
+    }
+}
