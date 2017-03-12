@@ -26,7 +26,7 @@ body {
     position: absolute;
     border-radius: 50px;
     background-color: black;
-    animation-iteration-count: 5;
+    animation-iteration-count: 4;
 }
 
 .torso {
@@ -57,12 +57,44 @@ body {
     animation-name: arm1-upper;
     animation-duration: 1.5s;
     animation-timing-function: ease-in;
+    transform: rotate(-72deg);
 }
 
+/*
+.arm1-lower {
+    height: 60px;
+    width: 7px;
+    top: 252px;
+    left: 308px;
+    transform-origin: top left;
+    animation-name: arm1-lower;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-in;
+}
 
 .arm1-lower {
+    height: 60px;
+    width: 7px;
+    top: 220px;
+    left: 239px;
+    transform-origin: top left;
+    animation-name: arm1-lower;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-in;
+    transform: rotate(131deg);
+}*/
 
+.arm1-lower {
+    height: 60px;
+    width: 7px;
+    top: 188px;
+    left: 380px;
+    transform-origin: center;
+    animation-name: arm1-lower;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-in;
 }
+
 
 .arm2-upper {
 

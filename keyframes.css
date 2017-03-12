@@ -12,3 +12,37 @@
 
     }
 }
+
+@keyframes arm1-lower {
+    0%   {
+        top: 220px;
+        left: 239px;
+        transform: rotate(131deg);
+    }
+    50% {
+        top: 188px;
+        left: 380px;
+        transform: rotate(-2deg); Peak
+        /*transform: rotate(112deg);*/
+    }
+    /*
+    50% {
+        top: 188px;
+        left: 380px;
+        transform: rotate(-2deg); Peak
+    }
+
+    75% {
+        top: 252px;
+        left: 308px;
+        transform: rotate(112deg);
+
+    }*/
+
+    100% {
+        top: 220px;
+        left: 239px;
+        transform: rotate(131deg);
+
+    }
+}
